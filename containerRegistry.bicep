@@ -22,7 +22,7 @@ resource containerRegistry 'Microsoft.ContainerRegistry/registries@2022-12-01' =
 
 var containerImageName = 'linebot/aca'
 var containerImageTag = containerVer
-var dockerfileSourceGitRepository = 'https://github.com/mochan-tk/Handson-LINE-Bot-Azure-GitHub-v4.git'
+var dockerfileSourceGitRepository = 'https://github.com/mochan-tk/Handson-LINE-Bot-Azure-GitHub-v5.git'
 // https://learn.microsoft.com/en-us/azure/templates/microsoft.containerregistry/registries/taskruns
 // https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/deployment-script-bicep
 param guidValue string = newGuid()
